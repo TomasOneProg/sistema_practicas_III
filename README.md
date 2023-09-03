@@ -23,19 +23,19 @@ git config --global user.email johndoe@example.com (Email que utilizamos para cr
 
 /**********************************************************************************************\
 
-Crearse una nueva rama en github:
+1) Crearse una nueva rama en github:
 https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository
 
 ejemplo nombre de rama: joel/pedidos
 
 /**********************************************************************************************\
 
-Clonar/descargar el repositorio: ESTO DESDE UNA CONSOLA (simbolo del sistema | ejemplo: C:\Users\Joel>git clone <URLrepositorio>) 
+2) Clonar/descargar el repositorio: ESTO DESDE UNA CONSOLA (simbolo del sistema | ejemplo: C:\Users\Joel>git clone <URLrepositorio>) 
 
 git clone <URLrepositorio>
 
 /**********************************************************************************************\
-Subir cambios al repositorio: TODO ESTO DESDE UNA CONSOLA (simbolo del sistema |ejemplo: C:\Users\Joel\nuestroProyectoClonado>git add .) 
+3) Subir cambios al repositorio: TODO ESTO DESDE UNA CONSOLA (simbolo del sistema |ejemplo: C:\Users\Joel\nuestroProyectoClonado>git add .) 
 
 git add .
 git commit -m "Nombre del commit";
