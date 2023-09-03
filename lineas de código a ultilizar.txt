@@ -1,0 +1,2 @@
+------------ | Conexion de comboBox | ------------
+CN_LlenarCombos llenarCMB2 = new CN_LlenarCombos(ComboBox CMB, string NombreTabla, string CampoID, string CampoDescrip, string Condicion = "")
