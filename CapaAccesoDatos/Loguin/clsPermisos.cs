@@ -14,11 +14,12 @@ namespace CapaDatos
     {
         public bool Permisos(int IdUser)
         {
-            string sSql = "SELECT PermisosUsuarios.IdPermiso, Permisos.Funcionalidad"+
-                          " FROM Permisos INNER JOIN PermisosUsuarios ON Permisos.[IdPermiso] = PermisosUsuarios.[IdPermiso]" +
-                          " where IdUsuario = " + IdUser + 
-                          " and ISNULL(PermisosUsuarios.FechaBaja) " +
-                          " and iif(NOT ISNULL(PermisosUsuarios.AltaProvisoria), PermisosUsuarios.AltaProvisoria >= date(), ISNULL(PermisosUsuarios.AltaProvisoria))  ";
+            string sSql = "SELECT DISTINCT P.idPermiso, P.funcionalidad " +
+              "FROM Permisos P " +
+              "INNER JOIN RolPermisos RP ON P.idPermiso = RP.idPermiso " +
+              "INNER JOIN UsuarioRoles UR ON RP.idRol = UR.idRol " +
+              "WHERE UR.idUsuario = " + IdUser;
+
 
             DataTable DT = new DataTable();
             clsEjecutarComando Ejecutar = new clsEjecutarComando();
