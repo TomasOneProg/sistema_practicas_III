@@ -21,10 +21,10 @@ namespace CapaVistaUsuario
 
         private void frmPedidos_Load(object sender, EventArgs e)
         {
-            dgvPedidos.SelectionMode = DataGridViewSelectionMode.FullRowSelect; //Selecciona toda la fila
-            dgvPedidos.ReadOnly = true; //hace que la grilla no se pueda editar
-            dgvPedidos.MultiSelect = false; //desactiva la seleccion multiple
-            dgvPedidos.AllowUserToAddRows = false; //desactiva  la ultima fila 
+            dgvPedidos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvPedidos.ReadOnly = true;
+            dgvPedidos.MultiSelect = false;
+            dgvPedidos.AllowUserToAddRows = false;
 
             txtInstrucionesEspeciales.Text = "0";
 
@@ -38,22 +38,12 @@ namespace CapaVistaUsuario
         {
             if (dgvPedidos.SelectedRows.Count > 0)
             {
-                /*grpPersonas.Text = "Identificacion Persona Nº " + dgvPersonas.Rows[dgvPersonas.SelectedRows[0].Index].Cells["IdPersona"].Value.ToString();
-                txtApellido.Text = dgvPersonas.Rows[dgvPersonas.SelectedRows[0].Index].Cells["Apellido"].Value.ToString();
-                txtNombres.Text = dgvPersonas.Rows[dgvPersonas.SelectedRows[0].Index].Cells["Nombres"].Value.ToString();
-
-                cmbLocalidad.SelectedValue = dgvPersonas.Rows[dgvPersonas.SelectedRows[0].Index].Cells["IdLocalidad"].Value; ;*/
-                txtNombre.Text = dgvPedidos.Rows[dgvPedidos.SelectedRows[0].Index].Cells["nombre"].Value.ToString();
+                txtNombre.Text = dgvPedidos.Rows[dgvPedidos.SelectedRows[0].Index].Cells["nombreCliente"].Value.ToString();
                 txtApellido.Text = dgvPedidos.Rows[dgvPedidos.SelectedRows[0].Index].Cells["apellido"].Value.ToString();
                 txtCantidad.Text = dgvPedidos.Rows[dgvPedidos.SelectedRows[0].Index].Cells["cantidad"].Value.ToString();
-                txtInstrucionesEspeciales.Text = dgvPedidos.Rows[dgvPedidos.SelectedRows[0].Index].Cells["instrucionesEspeciales"].Value.ToString();
+                txtInstrucionesEspeciales.Text = dgvPedidos.Rows[dgvPedidos.SelectedRows[0].Index].Cells["instruccionesEspeciales"].Value.ToString();
                 cbxOpcionPago.Text = dgvPedidos.Rows[dgvPedidos.SelectedRows[0].Index].Cells["opcionDePago"].Value.ToString();
-                cbxMenu.SelectedValue = dgvPedidos.Rows[dgvPedidos.SelectedRows[0].Index].Cells["IdMenu"].Value;
-                //pedido.NombreCliente = txtNombre.Text;
-                //pedido.Apellido = txtApellido.Text;
-                //pedido.Cantidad = txtCantidad.Text;
-                //pedido.InstruccionesEspeciales = txtInstrucionesEspeciales.Text;
-                //pedido.OpcionDePago = cbxOpcionPago.Text;
+                cbxMenu.SelectedValue = dgvPedidos.Rows[dgvPedidos.SelectedRows[0].Index].Cells["idMenu"].Value;
 
             }
         }
@@ -206,8 +196,6 @@ namespace CapaVistaUsuario
             CN_Pedidos pedido = new CN_Pedidos();
             dgvPedidos.DataSource = pedido.MostrarPedido();
         }
-
-
 
         private void PasarDatos(bool origen)
         {

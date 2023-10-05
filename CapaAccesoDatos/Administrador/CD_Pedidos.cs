@@ -82,11 +82,12 @@ namespace CapaAccesoDatos.Administrador
             
         }
 
-            public void InsertarPedido()
+        public void InsertarPedido()
         {
             string sSql = "INSERT INTO Pedidos" +
                "(nombreCliente, apellido, idMenu, mesa, instruccionesEspeciales, opcionDePago) " +
-                "values" + " ('" + NombreCliente + "','" + Apellido + "'," + IdMenu + "," + Mesa + ",'" + InstruccionesEspeciales + ",'" + OpcionDePago + "')";
+                "values" + " ('" + NombreCliente + "','" + Apellido + "','" + IdMenu + "','" + Mesa + "','" + InstruccionesEspeciales + "','" + OpcionDePago + "')";
+            Console.WriteLine(sSql);
             clsEjecutarComando Ejecutar = new clsEjecutarComando();
             Ejecutar.Ejecutar(sSql);
         }
@@ -95,8 +96,9 @@ namespace CapaAccesoDatos.Administrador
         {
             string sSql = "UPDATE Pedidos set " +
                 "nombreCliente='" + NombreCliente + "', apellido='" + Apellido + "', idMenu =" + IdMenu +
-                ", mesa = " + Mesa + ", instruccionesEspeciales = '" + InstruccionesEspeciales + "', " + OpcionDePago + "', " +
+                ", mesa = " + Mesa + ", instruccionesEspeciales = '" + InstruccionesEspeciales + "', opcionDePago = '" + OpcionDePago + "'" +
                 " WHERE idPedido =" + IdPedido;
+            Console.WriteLine(sSql);
             clsEjecutarComando Ejecutar = new clsEjecutarComando();
             Ejecutar.Ejecutar(sSql);
         }
