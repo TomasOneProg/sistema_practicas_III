@@ -41,8 +41,9 @@ namespace CapaVistaUsuario
             this.bitacoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lblSesion = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.lblSesion = new System.Windows.Forms.Label();
+            this.proveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -50,6 +51,7 @@ namespace CapaVistaUsuario
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(217)))), ((int)(((byte)(249)))));
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mantenimientoToolStripMenuItem,
@@ -58,7 +60,6 @@ namespace CapaVistaUsuario
             this.administracionToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
             this.menuStrip1.Size = new System.Drawing.Size(1200, 35);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
@@ -66,7 +67,8 @@ namespace CapaVistaUsuario
             // mantenimientoToolStripMenuItem
             // 
             this.mantenimientoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.pedidosToolStripMenuItem});
+            this.pedidosToolStripMenuItem,
+            this.proveedoresToolStripMenuItem});
             this.mantenimientoToolStripMenuItem.Name = "mantenimientoToolStripMenuItem";
             this.mantenimientoToolStripMenuItem.Size = new System.Drawing.Size(148, 29);
             this.mantenimientoToolStripMenuItem.Text = "Mantenimiento";
@@ -121,13 +123,13 @@ namespace CapaVistaUsuario
             this.registroToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bitacoraToolStripMenuItem});
             this.registroToolStripMenuItem.Name = "registroToolStripMenuItem";
-            this.registroToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.registroToolStripMenuItem.Size = new System.Drawing.Size(187, 34);
             this.registroToolStripMenuItem.Text = "Registros";
             // 
             // bitacoraToolStripMenuItem
             // 
             this.bitacoraToolStripMenuItem.Name = "bitacoraToolStripMenuItem";
-            this.bitacoraToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.bitacoraToolStripMenuItem.Size = new System.Drawing.Size(177, 34);
             this.bitacoraToolStripMenuItem.Text = "Bitacora";
             // 
             // panel1
@@ -151,19 +153,6 @@ namespace CapaVistaUsuario
             this.panel2.Size = new System.Drawing.Size(909, 63);
             this.panel2.TabIndex = 8;
             // 
-            // lblSesion
-            // 
-            this.lblSesion.BackColor = System.Drawing.Color.Transparent;
-            this.lblSesion.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSesion.Location = new System.Drawing.Point(291, 98);
-            this.lblSesion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblSesion.Name = "lblSesion";
-            this.lblSesion.Size = new System.Drawing.Size(909, 32);
-            this.lblSesion.TabIndex = 9;
-            this.lblSesion.Text = "lblSesion";
-            this.lblSesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
@@ -177,6 +166,26 @@ namespace CapaVistaUsuario
             this.button2.TabIndex = 3;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = false;
+            // 
+            // lblSesion
+            // 
+            this.lblSesion.BackColor = System.Drawing.Color.Transparent;
+            this.lblSesion.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSesion.Location = new System.Drawing.Point(291, 98);
+            this.lblSesion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSesion.Name = "lblSesion";
+            this.lblSesion.Size = new System.Drawing.Size(909, 32);
+            this.lblSesion.TabIndex = 9;
+            this.lblSesion.Text = "lblSesion";
+            this.lblSesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // proveedoresToolStripMenuItem
+            // 
+            this.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
+            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.proveedoresToolStripMenuItem.Text = "Proveedores";
+            this.proveedoresToolStripMenuItem.Click += new System.EventHandler(this.proveedoresToolStripMenuItem_Click);
             // 
             // frmPrincipal
             // 
@@ -223,5 +232,6 @@ namespace CapaVistaUsuario
         private System.Windows.Forms.Label lblSesion;
         private System.Windows.Forms.ToolStripMenuItem pedidosToolStripMenuItem;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ToolStripMenuItem proveedoresToolStripMenuItem;
     }
 }

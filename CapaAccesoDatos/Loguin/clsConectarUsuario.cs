@@ -13,8 +13,8 @@ namespace CapaAccesoDatos
     {
         public bool Login(string user, string pass)
         {
-            string sSql = "SELECT * FROM Usuario " +
-               "WHERE Usuario.usuario = '" + user + "' AND Usuario.password = '" + pass + "'";
+            string sSql = "SELECT * FROM Usuarios " +
+               "WHERE Usuarios.usuario = '" + user + "' AND Usuarios.password = '" + pass + "'";
             // and Usuarios.UsuarioDesactivado=false
             DataTable DT = new DataTable();
             clsEjecutarComando Ejecutar = new clsEjecutarComando();

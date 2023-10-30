@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaComun;
-
+using CapaVistaUsuario.Administrador;
 
 namespace CapaVistaUsuario
 {
@@ -37,13 +37,7 @@ namespace CapaVistaUsuario
         }
 
         private void frmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
-        /*
-         * El evento FormClosing se produce al momento de cerrar el formulario, en este evento
-         * que se dispara a través de una instruccion o bien al clickear sobre la X de los ControlBox
-         * del formulario, es donde colocamos lo que queremos que suceda al cerrar
-         * */
         {
-            //pregunto si desea cerrar, dando la opción de cancelar la operación
             DialogResult resultado = MessageBox.Show("Esta seguro de CERRAR el sistema?",
                                 "FINALIZAR SISTEMA",
                                 MessageBoxButtons.OKCancel,
@@ -52,21 +46,27 @@ namespace CapaVistaUsuario
 
             if (resultado == DialogResult.Cancel)
             {
-                e.Cancel = true; //Cancela el cierre del formulario
+                e.Cancel = true;
             }
         }
 
         private void gestiónDePersonalToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmPedidos fAux = new frmPedidos();
-            //Loguin.frmCambioPassword fAux = new Loguin.frmCambioPassword();
+            frmFacturacion fAux = new frmFacturacion();
             fAux.MdiParent = this;
             fAux.Show();
         }
 
         private void pedidosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmPedidos fAux = new frmPedidos();
+            frmFacturacion fAux = new frmFacturacion();
+            fAux.MdiParent = this;
+            fAux.Show();
+        }
+
+        private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmProveedores fAux = new frmProveedores();
             fAux.MdiParent = this;
             fAux.Show();
         }

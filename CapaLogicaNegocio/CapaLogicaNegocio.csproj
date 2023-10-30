@@ -42,7 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Administrador\CN_Pedidos.cs" />
+    <Compile Include="Administrador\CN_Facturacion.cs" />
+    <Compile Include="Administrador\CN_Proveedores.cs" />
     <Compile Include="CL_clsBitacora.cs" />
     <Compile Include="LlenarCombos\CN_LlenarCombos.cs" />
     <Compile Include="Loguin\clsLogicaLoguin.cs" />
