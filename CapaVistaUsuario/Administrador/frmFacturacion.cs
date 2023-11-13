@@ -8,9 +8,7 @@ namespace CapaVistaUsuario
 {
     public partial class frmFacturacion : Form
     {
-        // Instancio los objetos de las clases que utilizo en el formulario
         CN_Facturacion facturacion = new CN_Facturacion();
-        CV_Validar_Mail ValidaCorreo = new CV_Validar_Mail();
 
         public frmFacturacion()
         {

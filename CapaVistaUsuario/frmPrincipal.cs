@@ -21,7 +21,7 @@ namespace CapaVistaUsuario
 
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
-            lblSesion.Text = "Sesion de: " + UserCache.Apellido + " " + UserCache.Nombres; 
+            lblSesion.Text = "Sesion de: " + UserCache.Usuario; 
         }
 
         private void cambioDePasswordToolStripMenuItem_Click_1(object sender, EventArgs e)
@@ -50,23 +50,44 @@ namespace CapaVistaUsuario
             }
         }
 
-        private void gestiónDePersonalToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmFacturacion fAux = new frmFacturacion();
-            fAux.MdiParent = this;
-            fAux.Show();
-        }
-
-        private void pedidosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmFacturacion fAux = new frmFacturacion();
-            fAux.MdiParent = this;
-            fAux.Show();
-        }
-
-        private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        private void proveedoresToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             frmProveedores fAux = new frmProveedores();
+            fAux.MdiParent = this;
+            fAux.Show();
+        }
+
+        private void stockToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmStock fAux = new frmStock();
+            fAux.MdiParent = this;
+            fAux.Show();
+        }
+
+        private void personalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPersonal fAux = new frmPersonal();
+            fAux.MdiParent = this;
+            fAux.Show();
+        }
+
+        private void facturaciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFacturacion fAux = new frmFacturacion();
+            fAux.MdiParent = this;
+            fAux.Show();
+        }
+
+        private void menuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMenu fAux = new frmMenu();
+            fAux.MdiParent = this;
+            fAux.Show();
+        }
+
+        private void productoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmProducto fAux = new frmProducto();
             fAux.MdiParent = this;
             fAux.Show();
         }

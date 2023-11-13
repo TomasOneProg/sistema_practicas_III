@@ -43,7 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Administrador\CN_Facturacion.cs" />
+    <Compile Include="Administrador\CN_Menu.cs" />
+    <Compile Include="Administrador\CN_Personal.cs" />
+    <Compile Include="Administrador\CN_Producto.cs" />
     <Compile Include="Administrador\CN_Proveedores.cs" />
+    <Compile Include="Administrador\CN_Stock.cs" />
     <Compile Include="CL_clsBitacora.cs" />
     <Compile Include="LlenarCombos\CN_LlenarCombos.cs" />
     <Compile Include="Loguin\clsLogicaLoguin.cs" />

@@ -46,7 +46,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Administrador\CD_Facturacion.cs" />
+    <Compile Include="Administrador\CD_Menu.cs" />
+    <Compile Include="Administrador\CD_Personal.cs" />
+    <Compile Include="Administrador\CD_Producto.cs" />
     <Compile Include="Administrador\CD_Proveedores.cs" />
+    <Compile Include="Administrador\CD_Stock.cs" />
     <Compile Include="CD_clsBitacora.cs" />
     <Compile Include="clsEjecutarComando.cs" />
     <Compile Include="LlenarCombos\CD_LlenarCombos.cs" />
