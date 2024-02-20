@@ -52,3 +52,9 @@ C:\Users\Joel\Sistema2023\CapaComun\obj\Debug\CapaComun.csproj.AssemblyReference
 C:\Users\Joel\Sistema2023\CapaComun\obj\Debug\CapaComun.csproj.CoreCompileInputs.cache
 C:\Users\Joel\Sistema2023\CapaComun\obj\Debug\CapaComun.dll
 C:\Users\Joel\Sistema2023\CapaComun\obj\Debug\CapaComun.pdb
+C:\Users\user\Documents\sistema_practicas_III\CapaComun\bin\Debug\CapaComun.dll
+C:\Users\user\Documents\sistema_practicas_III\CapaComun\bin\Debug\CapaComun.pdb
+C:\Users\user\Documents\sistema_practicas_III\CapaComun\obj\Debug\CapaComun.csproj.AssemblyReference.cache
+C:\Users\user\Documents\sistema_practicas_III\CapaComun\obj\Debug\CapaComun.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\sistema_practicas_III\CapaComun\obj\Debug\CapaComun.dll
+C:\Users\user\Documents\sistema_practicas_III\CapaComun\obj\Debug\CapaComun.pdb

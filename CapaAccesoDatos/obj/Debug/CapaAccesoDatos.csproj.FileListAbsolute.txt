@@ -324,3 +324,12 @@ C:\Users\Joel\Sistema2023\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
 C:\Users\Joel\Sistema2023\CapaAccesoDatos\bin\Debug\CapaComun.dll
 C:\Users\Joel\Sistema2023\CapaAccesoDatos\bin\Debug\CapaComun.pdb
 C:\Users\Joel\Sistema2023\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CopyComplete
+C:\Users\user\Documents\sistema_practicas_III\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
+C:\Users\user\Documents\sistema_practicas_III\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
+C:\Users\user\Documents\sistema_practicas_III\CapaAccesoDatos\bin\Debug\CapaComun.dll
+C:\Users\user\Documents\sistema_practicas_III\CapaAccesoDatos\bin\Debug\CapaComun.pdb
+C:\Users\user\Documents\sistema_practicas_III\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.AssemblyReference.cache
+C:\Users\user\Documents\sistema_practicas_III\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\sistema_practicas_III\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CopyComplete
+C:\Users\user\Documents\sistema_practicas_III\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
+C:\Users\user\Documents\sistema_practicas_III\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
