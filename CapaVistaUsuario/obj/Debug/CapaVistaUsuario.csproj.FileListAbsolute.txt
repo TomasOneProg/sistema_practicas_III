@@ -724,3 +724,29 @@ C:\Users\user\Documents\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVis
 C:\Users\user\Documents\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.csproj.CopyComplete
 C:\Users\user\Documents\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.exe
 C:\Users\user\Documents\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.pdb
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\bin\Debug\CapaVistaUsuario.exe.config
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\bin\Debug\CapaVistaUsuario.exe
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\bin\Debug\CapaVistaUsuario.pdb
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\bin\Debug\CapaComun.dll
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\bin\Debug\CapaLogicaNegocio.dll
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\bin\Debug\CapaAccesoDatos.dll
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\bin\Debug\CapaComun.pdb
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\bin\Debug\CapaLogicaNegocio.pdb
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\bin\Debug\CapaAccesoDatos.pdb
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.csproj.AssemblyReference.cache
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.csproj.SuggestedBindingRedirects.cache
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.frmFacturacion.resources
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.Administrador.frmPersonal.resources
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.Administrador.frmProducto.resources
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.Administrador.frmProveedores.resources
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.frmMenu.resources
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.frmPrincipal.resources
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.frmStock.resources
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.Loguin.frmCambioPassword.resources
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.frmLoguin.resources
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.Properties.Resources.resources
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.csproj.GenerateResource.cache
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.csproj.CoreCompileInputs.cache
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.csproj.CopyComplete
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.exe
+E:\Proyectos C#\Proyecto Practicas III\sistema_practicas_III\CapaVistaUsuario\obj\Debug\CapaVistaUsuario.pdb
