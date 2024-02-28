@@ -14,6 +14,8 @@ namespace CapaVistaUsuario
     public partial class frmStock : Form
     {
         CN_Stock stock = new CN_Stock();
+        private int idProveedorSeleccionado;
+        private int idProductoSeleccionado;
 
         public frmStock()
         {
@@ -27,10 +29,28 @@ namespace CapaVistaUsuario
             dgvStock.MultiSelect = false;
             dgvStock.AllowUserToAddRows = false;
 
+            // Cargar los nombres de proveedores y productos en los ComboBox
+            CargarProveedores();
+            CargarProductos();
+
             MostrarStock();
             dgvStock.Select();
             CV_Utiles.BloquearControles(this);
             CV_Botonera.btnFormularios(this, btnCancelar);
+        }
+
+        private void CargarProveedores()
+        {
+            List<string> nombresProveedores = stock.ObtenerNombresProveedores();
+
+            cmbProveedor.DataSource = nombresProveedores;
+        }
+
+        private void CargarProductos()
+        {
+            List<string> nombresProductos = stock.ObtenerNombresProductos();
+
+            cmbProducto.DataSource = nombresProductos;
         }
 
         private void dgvStock_RowEnter(object sender, DataGridViewCellEventArgs e)
@@ -61,14 +81,30 @@ namespace CapaVistaUsuario
         {
             try
             {
-                PasarDatos(false);
+                // Obtener el nombre seleccionado en el ComboBox de proveedores
+                string nombreProveedor = cmbProveedor.SelectedItem.ToString();
+                // Obtener el ID del proveedor desde la capa de datos
+                int idProveedor = ObtenerIdProveedor(nombreProveedor); // Método a implementar
 
+                // Obtener el nombre seleccionado en el ComboBox de productos
+                string nombreProducto = cmbProducto.SelectedItem.ToString();
+                // Obtener el ID del producto desde la capa de datos
+                int idProducto = ObtenerIdProducto(nombreProducto); // Método a implementar
+
+                // Asignar los IDs de proveedor y producto a la instancia de CN_Stock
+                stock.IdProveedor = idProveedor;
+                stock.IdProducto = idProducto;
+
+                // Pasar los demás datos y guardar en la base de datos
+                PasarDatos(false);
                 stock.InsertarStock();
                 MostrarStock();
 
                 CV_Botonera.btnFormularios(this, btnGuardaCambios);
                 CV_Utiles.BloquearControles(this);
                 dgvStock.Select();
+
+                MessageBox.Show("Se han guardado los datos con éxito");
             }
             catch (Exception ex)
             {
@@ -161,6 +197,18 @@ namespace CapaVistaUsuario
             stock.FechaDeVencimiento = dtpFechaVencimiento.Value.ToString();
             stock.NumeroDeLote = Convert.ToInt32(txtNumeroLote.Text);
             stock.Cantidad = Convert.ToInt32(txtCantidad.Text);
+        }
+
+        private int ObtenerIdProveedor(string nombreProveedor)
+        {
+            CN_Stock negocioStock = new CN_Stock();
+            return negocioStock.ObtenerIdProveedor(nombreProveedor);
+        }
+
+        private int ObtenerIdProducto(string nombreProducto)
+        {
+            CN_Stock negocioStock = new CN_Stock();
+            return negocioStock.ObtenerIdProducto(nombreProducto);
         }
     }
 
