@@ -1,0 +1,239 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\capavistausuario\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|solutionrelative:capavistausuario\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\capavistausuario\\administrador\\frmstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|solutionrelative:capavistausuario\\administrador\\frmstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\capavistausuario\\administrador\\frmstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|solutionrelative:capavistausuario\\administrador\\frmstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCEAB851-81A7-45E7-96A2-CD8FBB2178A7}|CapaLogicaNegocio\\CapaLogicaNegocio.csproj|E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\capalogicanegocio\\administrador\\cn_stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCEAB851-81A7-45E7-96A2-CD8FBB2178A7}|CapaLogicaNegocio\\CapaLogicaNegocio.csproj|solutionrelative:capalogicanegocio\\administrador\\cn_stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E15ECB8E-DBEE-46A4-8502-28BC5243794C}|CapaAccesoDatos\\CapaAccesoDatos.csproj|e:\\proyectos c#\\proyecto practicas iii\\variante\\sistema_practicas_iii\\capaaccesodatos\\administrador\\cd_stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E15ECB8E-DBEE-46A4-8502-28BC5243794C}|CapaAccesoDatos\\CapaAccesoDatos.csproj|solutionrelative:capaaccesodatos\\administrador\\cd_stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\capavistausuario\\administrador\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|solutionrelative:capavistausuario\\administrador\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\capavistausuario\\administrador\\frmfacturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|solutionrelative:capavistausuario\\administrador\\frmfacturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\capavistausuario\\administrador\\frmfacturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|solutionrelative:capavistausuario\\administrador\\frmfacturacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\capavistausuario\\administrador\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|solutionrelative:capavistausuario\\administrador\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\capavistausuario\\administrador\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|solutionrelative:capavistausuario\\administrador\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\capavistausuario\\administrador\\frmpersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|solutionrelative:capavistausuario\\administrador\\frmpersonal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\capavistausuario\\administrador\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|solutionrelative:capavistausuario\\administrador\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\capavistausuario\\loguin\\frmloguin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|solutionrelative:capavistausuario\\loguin\\frmloguin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\capavistausuario\\loguin\\frmloguin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2A838CA-2A7D-4FBE-A863-D8A226EFE0F6}|CapaVistaUsuario\\CapaVistaUsuario.csproj|solutionrelative:capavistausuario\\loguin\\frmloguin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "CapaVistaUsuario\\frmPrincipal.cs",
+              "ToolTip": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\frmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaVistaUsuario\\frmPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T21:03:46.356Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmStock.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmStock.cs",
+              "RelativeDocumentMoniker": "CapaVistaUsuario\\Administrador\\frmStock.cs",
+              "ToolTip": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmStock.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaVistaUsuario\\Administrador\\frmStock.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T21:03:53.809Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmStock.cs",
+              "DocumentMoniker": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmStock.cs",
+              "RelativeDocumentMoniker": "CapaVistaUsuario\\Administrador\\frmStock.cs",
+              "ToolTip": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmStock.cs",
+              "RelativeToolTip": "CapaVistaUsuario\\Administrador\\frmStock.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAcwNIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T21:03:53.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CN_Stock.cs",
+              "DocumentMoniker": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaLogicaNegocio\\Administrador\\CN_Stock.cs",
+              "RelativeDocumentMoniker": "CapaLogicaNegocio\\Administrador\\CN_Stock.cs",
+              "ToolTip": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaLogicaNegocio\\Administrador\\CN_Stock.cs",
+              "RelativeToolTip": "CapaLogicaNegocio\\Administrador\\CN_Stock.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAswHcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T21:59:05.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CD_Stock.cs",
+              "DocumentMoniker": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaAccesoDatos\\Administrador\\CD_Stock.cs",
+              "RelativeDocumentMoniker": "CapaAccesoDatos\\Administrador\\CD_Stock.cs",
+              "ToolTip": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaAccesoDatos\\Administrador\\CD_Stock.cs",
+              "RelativeToolTip": "CapaAccesoDatos\\Administrador\\CD_Stock.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAiwJEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T22:01:36.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmProveedores.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmProveedores.cs",
+              "RelativeDocumentMoniker": "CapaVistaUsuario\\Administrador\\frmProveedores.cs",
+              "ToolTip": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmProveedores.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaVistaUsuario\\Administrador\\frmProveedores.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T21:03:53.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmFacturacion.cs",
+              "DocumentMoniker": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmFacturacion.cs",
+              "RelativeDocumentMoniker": "CapaVistaUsuario\\Administrador\\frmFacturacion.cs",
+              "ToolTip": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmFacturacion.cs",
+              "RelativeToolTip": "CapaVistaUsuario\\Administrador\\frmFacturacion.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAowCQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-02-27T21:03:52.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmProducto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmProducto.cs",
+              "RelativeDocumentMoniker": "CapaVistaUsuario\\Administrador\\frmProducto.cs",
+              "ToolTip": "E:\\Proyectos C#\\Proyecto Practicas III\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmProducto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmProducto.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-02-27T21:03:46.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmMenu.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmMenu.cs",
+              "RelativeDocumentMoniker": "CapaVistaUsuario\\Administrador\\frmMenu.cs",
+              "ToolTip": "E:\\Proyectos C#\\Proyecto Practicas III\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmMenu.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmMenu.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-02-27T21:03:46.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmFacturacion.cs [Design]",
+              "DocumentMoniker": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmFacturacion.cs",
+              "RelativeDocumentMoniker": "CapaVistaUsuario\\Administrador\\frmFacturacion.cs",
+              "ToolTip": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmFacturacion.cs [Design]",
+              "RelativeToolTip": "CapaVistaUsuario\\Administrador\\frmFacturacion.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-02-27T21:03:45.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmPersonal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmPersonal.cs",
+              "RelativeDocumentMoniker": "CapaVistaUsuario\\Administrador\\frmPersonal.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmPersonal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-02-27T21:03:53.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmMenu.cs",
+              "DocumentMoniker": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmMenu.cs",
+              "RelativeDocumentMoniker": "CapaVistaUsuario\\Administrador\\frmMenu.cs",
+              "ToolTip": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Administrador\\frmMenu.cs",
+              "RelativeToolTip": "CapaVistaUsuario\\Administrador\\frmMenu.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAmwDIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-02-27T21:03:53.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmLoguin.cs",
+              "DocumentMoniker": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Loguin\\frmLoguin.cs",
+              "RelativeDocumentMoniker": "CapaVistaUsuario\\Loguin\\frmLoguin.cs",
+              "ToolTip": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Loguin\\frmLoguin.cs",
+              "RelativeToolTip": "CapaVistaUsuario\\Loguin\\frmLoguin.cs",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAEwOwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-02-27T21:03:53.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmLoguin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Proyectos C#\\Proyecto Practicas III\\Variante\\sistema_practicas_III\\CapaVistaUsuario\\Loguin\\frmLoguin.cs",
+              "RelativeDocumentMoniker": "CapaVistaUsuario\\Loguin\\frmLoguin.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\sistema_practicas_III\\CapaVistaUsuario\\Loguin\\frmLoguin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-02-27T21:03:53.829Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

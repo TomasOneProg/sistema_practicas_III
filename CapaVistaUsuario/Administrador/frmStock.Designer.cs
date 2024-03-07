@@ -40,6 +40,10 @@ namespace CapaVistaUsuario
             this.btnGuardar = new System.Windows.Forms.Button();
             this.dgvStock = new System.Windows.Forms.DataGridView();
             this.grpStock = new System.Windows.Forms.GroupBox();
+            this.cmbProducto = new System.Windows.Forms.ComboBox();
+            this.cmbProveedor = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.dtpFechaVencimiento = new System.Windows.Forms.DateTimePicker();
             this.lblPrecioTotal = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -150,6 +154,10 @@ namespace CapaVistaUsuario
             // grpStock
             // 
             this.grpStock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(2)))), ((int)(((byte)(1)))), ((int)(((byte)(41)))));
+            this.grpStock.Controls.Add(this.cmbProducto);
+            this.grpStock.Controls.Add(this.cmbProveedor);
+            this.grpStock.Controls.Add(this.label3);
+            this.grpStock.Controls.Add(this.label2);
             this.grpStock.Controls.Add(this.dtpFechaVencimiento);
             this.grpStock.Controls.Add(this.lblPrecioTotal);
             this.grpStock.Controls.Add(this.label7);
@@ -166,10 +174,44 @@ namespace CapaVistaUsuario
             this.grpStock.TabStop = false;
             this.grpStock.Text = "groupBox1";
             // 
+            // cmbProducto
+            // 
+            this.cmbProducto.FormattingEnabled = true;
+            this.cmbProducto.Location = new System.Drawing.Point(285, 48);
+            this.cmbProducto.Name = "cmbProducto";
+            this.cmbProducto.Size = new System.Drawing.Size(168, 21);
+            this.cmbProducto.TabIndex = 39;
+            // 
+            // cmbProveedor
+            // 
+            this.cmbProveedor.FormattingEnabled = true;
+            this.cmbProveedor.Location = new System.Drawing.Point(285, 22);
+            this.cmbProveedor.Name = "cmbProveedor";
+            this.cmbProveedor.Size = new System.Drawing.Size(168, 21);
+            this.cmbProveedor.TabIndex = 38;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(210, 54);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(50, 13);
+            this.label3.TabIndex = 37;
+            this.label3.Text = "Producto";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(210, 30);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(56, 13);
+            this.label2.TabIndex = 36;
+            this.label2.Text = "Proveedor";
+            // 
             // dtpFechaVencimiento
             // 
             this.dtpFechaVencimiento.Location = new System.Drawing.Point(122, 74);
-            this.dtpFechaVencimiento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtpFechaVencimiento.Margin = new System.Windows.Forms.Padding(2);
             this.dtpFechaVencimiento.Name = "dtpFechaVencimiento";
             this.dtpFechaVencimiento.Size = new System.Drawing.Size(215, 20);
             this.dtpFechaVencimiento.TabIndex = 35;
@@ -212,15 +254,15 @@ namespace CapaVistaUsuario
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(11, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 13);
+            this.label1.Size = new System.Drawing.Size(94, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Numero de unidades";
+            this.label1.Text = "Numero de unidad";
             // 
             // txtNumeroLote
             // 
             this.txtNumeroLote.Location = new System.Drawing.Point(122, 27);
             this.txtNumeroLote.Name = "txtNumeroLote";
-            this.txtNumeroLote.Size = new System.Drawing.Size(186, 20);
+            this.txtNumeroLote.Size = new System.Drawing.Size(72, 20);
             this.txtNumeroLote.TabIndex = 0;
             // 
             // frmStock
@@ -231,7 +273,7 @@ namespace CapaVistaUsuario
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dgvStock);
             this.Controls.Add(this.grpStock);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmStock";
             this.Text = "FrmStock";
             this.Load += new System.EventHandler(this.frmStock_Load);
@@ -262,5 +304,9 @@ namespace CapaVistaUsuario
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtNumeroLote;
         private System.Windows.Forms.DateTimePicker dtpFechaVencimiento;
+        private System.Windows.Forms.ComboBox cmbProducto;
+        private System.Windows.Forms.ComboBox cmbProveedor;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
     }
 }
