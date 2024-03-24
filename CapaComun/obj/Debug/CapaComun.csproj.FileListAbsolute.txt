@@ -64,3 +64,9 @@ E:\Proyectos C#\Proyecto Practicas III\Variante\sistema_practicas_III\CapaComun\
 E:\Proyectos C#\Proyecto Practicas III\Variante\sistema_practicas_III\CapaComun\obj\Debug\CapaComun.csproj.CoreCompileInputs.cache
 E:\Proyectos C#\Proyecto Practicas III\Variante\sistema_practicas_III\CapaComun\obj\Debug\CapaComun.dll
 E:\Proyectos C#\Proyecto Practicas III\Variante\sistema_practicas_III\CapaComun\obj\Debug\CapaComun.pdb
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaComun\bin\Debug\CapaComun.dll
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaComun\bin\Debug\CapaComun.pdb
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaComun\obj\Debug\CapaComun.csproj.AssemblyReference.cache
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaComun\obj\Debug\CapaComun.csproj.CoreCompileInputs.cache
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaComun\obj\Debug\CapaComun.dll
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaComun\obj\Debug\CapaComun.pdb

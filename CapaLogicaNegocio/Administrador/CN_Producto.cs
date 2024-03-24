@@ -18,6 +18,7 @@ namespace CapaLogicaNegocio.Administrador
         private string categoria;
         private string marca;
         private string tipoDeCantidad;
+        public List<string> Categorias { get; private set; }
         #endregion
 
         #region PROPERTIES
@@ -50,6 +51,15 @@ namespace CapaLogicaNegocio.Administrador
         {
             get => tipoDeCantidad;
             set { tipoDeCantidad = value; }
+        }
+        public CN_Producto()
+        {
+            Categorias = new List<string>
+            {
+                "Quesos", "Jamones", "Otros Fiambres", "Chorizos o Salames",
+                "Verduras", "Frutas", "Bebidas No-Alcohólicas", "Bebidas Alcohólicas",
+                "Carnes", "Pescados", "Aves Comestibles"
+            };
         }
 
         #endregion
@@ -89,6 +99,7 @@ namespace CapaLogicaNegocio.Administrador
             cdProducto.Marca = Marca;
             cdProducto.TipoDeCantidad = TipoDeCantidad;
         }
+
 
         #endregion
     }

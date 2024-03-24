@@ -342,3 +342,12 @@ E:\Proyectos C#\Proyecto Practicas III\Variante\sistema_practicas_III\CapaAcceso
 E:\Proyectos C#\Proyecto Practicas III\Variante\sistema_practicas_III\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
 E:\Proyectos C#\Proyecto Practicas III\Variante\sistema_practicas_III\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
 E:\Proyectos C#\Proyecto Practicas III\Variante\sistema_practicas_III\CapaAccesoDatos\obj\Debug\CapaAcce.1AD5E18C.Up2Date
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.dll
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaAccesoDatos\bin\Debug\CapaAccesoDatos.pdb
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaAccesoDatos\bin\Debug\CapaComun.dll
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaAccesoDatos\bin\Debug\CapaComun.pdb
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.AssemblyReference.cache
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CoreCompileInputs.cache
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaAccesoDatos\obj\Debug\CapaAcce.1AD5E18C.Up2Date
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb

@@ -439,3 +439,14 @@ E:\Proyectos C#\Proyecto Practicas III\Variante\sistema_practicas_III\CapaLogica
 E:\Proyectos C#\Proyecto Practicas III\Variante\sistema_practicas_III\CapaLogicaNegocio\bin\Debug\CapaAccesoDatos.pdb
 E:\Proyectos C#\Proyecto Practicas III\Variante\sistema_practicas_III\CapaLogicaNegocio\bin\Debug\CapaComun.pdb
 E:\Proyectos C#\Proyecto Practicas III\Variante\sistema_practicas_III\CapaLogicaNegocio\obj\Debug\CapaLogi.BF2FE080.Up2Date
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.dll
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaLogicaNegocio\bin\Debug\CapaLogicaNegocio.pdb
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaLogicaNegocio\bin\Debug\CapaAccesoDatos.dll
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaLogicaNegocio\bin\Debug\CapaComun.dll
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaLogicaNegocio\bin\Debug\CapaAccesoDatos.pdb
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaLogicaNegocio\bin\Debug\CapaComun.pdb
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.csproj.AssemblyReference.cache
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.csproj.CoreCompileInputs.cache
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaLogicaNegocio\obj\Debug\CapaLogi.BF2FE080.Up2Date
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.dll
+E:\Proyectos C#\Proyecto Practicas III\23-3\sistema_practicas_III\CapaLogicaNegocio\obj\Debug\CapaLogicaNegocio.pdb

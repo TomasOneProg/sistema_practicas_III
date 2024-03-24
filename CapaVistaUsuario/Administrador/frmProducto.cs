@@ -18,6 +18,7 @@ namespace CapaVistaUsuario.Administrador
         public frmProducto()
         {
             InitializeComponent();
+            cmbCategoria.DataSource = producto.Categorias;
         }
 
         private void frmProducto_Load(object sender, EventArgs e)
@@ -52,6 +53,9 @@ namespace CapaVistaUsuario.Administrador
             try
             {
                 PasarDatos(false);
+                string categoriaSeleccionada = cmbCategoria.SelectedItem.ToString();
+
+                producto.Categoria = categoriaSeleccionada;
 
                 producto.InsertarProducto();
                 MostrarProductos();
